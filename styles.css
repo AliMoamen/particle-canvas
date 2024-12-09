@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(120deg, #ff7e5f, #feb47b);
+    transition: background 0.5s;
+  }
+  canvas {
+    display: block;
+  }
+  #controls {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #mode1 {
+    background-color: #007bff;
+    color: white;
+  }
+  #mode2 {
+    background-color: #28a745;
+    color: white;
+  }
+  #mode3 {
+    background-color: #ffc107;
+    color: black;
+  }
+  #clearCanvas {
+    background-color: #dc3545;
+    color: white;
+  }
